@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  background: #fdf6ec;
+}
+
+/* MENU LATERAL */
+nav {
+  width: 250px;
+  background-color: #ff7b00; /* laranja Garfield */
+  display: flex;
+  flex-direction: column;
+  padding: 30px 20px;
+}
+
+nav h2 {
+  color: #fff;
+  margin-bottom: 30px;
+  font-size: 22px;
+  text-align: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  background-color: transparent;
+  padding: 12px 15px;
+  margin: 8px 0;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  font-weight: bold;
+}
+
+nav a:hover {
+  background-color: #fdd835; /* amarelo Scooby */
+  color: #333;
+}
+
+/* CONTEÚDO PRINCIPAL */
+.main {
+  flex: 1;
+  padding: 40px;
+  background-color: #fff8e1;
+  overflow-y: auto;
+}
+
+.main h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.characters {
+  display: flex;
+  gap: 20px;
+}
+
+/* IMAGEM REDONDA */
+img.scooby {
+  width: 300px;
+  height: 300px;
+  border-radius: 10%;
+  overflow: hidden;
+  border: 4px solid #ff7b00;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+
+  /* POSICIONAMENTO: */
+  margin-left: 15px;   /* desloca para a direita */
+  margin-top: 1cm;     /* desloca 1 centímetro para baixo */
+}
+
+.characters {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.characters figure {
+  text-align: center;
+}
+
+.card-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #ff7b00;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.characters figcaption {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #444;
+}
+.card-img:hover {
+  border-color: #ff9800; /* laranja mais vivo */
+  box-shadow: 0 0 20px 5px #ff9800;
+  transition: all 0.3s ease-in-out;
+}
+
+}
+
+.legenda {
+  text-align: center;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #444;
+  font-size: 16px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #fff8e1;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  color: #ff7b00;
+}
+
+.memory-game {
+  width: 640px;
+  margin: 40px auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+}
+
+.card {
+  width: 140px;
+  height: 140px;
+  position: relative;
+  transform-style: preserve-3d;
+  transform: rotateY(0deg);
+  transition: transform 0.5s;
+  cursor: pointer;
+}
+
+.card.flip {
+  transform: rotateY(180deg);
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  border: 3px solid #ff7b00;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+.front-face {
+  transform: rotateY(180deg);
+}
+
+.back-face {
+  background: #ffd180;
+}
+/* Estilo para a página de Serviços */
+
+.main h1 {
+  font-size: 32px;
+  color: #ff7b00;
+  margin-bottom: 20px;
+}
+
+.main h2 {
+  font-size: 24px;
+  color: #333;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.main p {
+  font-size: 18px;
+  line-height: 1.7;
+  color: #444;
+  margin-bottom: 20px;
+}
+.main ul li {
+	  list-style: none;
+  font-size: 18px;
+  margin-bottom: 10px;
+  padding-left: 28px;
+  position: relative;
+  white-space: normal; /* permite quebra de linha */
+  word-wrap: break-word;
+}
+
+.main ul li::before {
+  content: "🐾";
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.servico-texto {
+  text-align: justify;
+  line-height: 1.8;
+  font-size: 18px;
+  color: #333;
+  padding: 30px 40px;
+  max-width: 900px; /* aumentado para mais espaço horizontal */
+  margin: 10px auto;
+}
+.contato p {
+  margin-bottom: 12px;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: justify;
+}
+.banho p {
+	margin-bottom: 12px;
+	font-size: 16px;
+	line-height: 1.6;
+	text-align: justify;
+}

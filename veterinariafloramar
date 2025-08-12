@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Veterinária Floramar</title>
+  <link rel="stylesheet" href="Estilo.css"> <!-- ou cole o CSS direto no <style> aqui -->
+</head>
+<body>
+
+  <nav>
+    <h2>Veterinária Floramar</h2>
+    <a href="#veterinariafloramar.html">Início</a>
+    <a href="#servicos.html">Serviços</a>
+    <a href="#agendamento.html">Agendamento</a>
+    <a href="#contato.html">Contato</a>
+	<a href="#jogos.html">Jogos</a>
+  </nav>
+
+  <div class="main">
+    <h1>Bem-vindo à Clínica Veterinária Floramar</h1>
+    <p>Um lugar onde seu pet é cuidado com carinho e diversão!</p>
+
+<div class="characters">
+  <figure>
+    <a href="banho.html">
+      <img src="banho.png" alt="Banho no pet" class="card-img">
+    </a>
+    <figcaption>Banho</figcaption>
+  </figure>
+  
+  <figure>
+    <a href="tosa.html">
+      <img src="garfild.png" alt="Tosa" class="card-img">
+    </a>
+    <figcaption>Tosa</figcaption>
+  </figure>
+
+  <figure>
+    <a href="vacinacao.html">
+      <img src="snoop.png" alt="Vacinação" class="card-img">
+    </a>
+    <figcaption>Vacinação</figcaption>
+  </figure>
+
+  <figure>
+    <a href="consulta.html">
+      <img src="coragem.png" alt="Consulta" class="card-img">
+    </a>
+    <figcaption>Consulta</figcaption>
+  </figure>
+</div>
+
+
+
+</body>
+</html>
